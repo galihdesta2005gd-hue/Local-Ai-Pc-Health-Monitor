@@ -10,10 +10,10 @@ Key Features
 **Manual Prompt:** Ask Gemma any question from the terminal while the auto-monitor keeps running in the background.
 
 Tools Used
-**Python 3.13:** Core scripting — data collection, AI communication, threading, and output delivery.
+**Python 3.13:** Core scripting, data collection, AI communication, threading, and output delivery.
 **Ollama + gemma4:e2b:** Local AI runtime serving Google DeepMind's 2B-parameter edge model offline.
 **psutil:** Reads real-time CPU, RAM, and disk usage from the operating system.
-PowerShell + subprocess:** Queries Windows Event Log via Get-WinEvent for Critical and Error events.
+**PowerShell + subprocess:** Queries Windows Event Log via Get-WinEvent for Critical and Error events.
 ****PowerShell Windows Forms:** Builds the responsive dark-themed desktop popup — no extra pip install needed.
 **threading:** Runs the auto-loop and manual prompt listener simultaneously without blocking each other.
 **Virtual Environment (.venv):** Isolates dependencies for consistent execution including via Task Scheduler.
